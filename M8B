@@ -1,0 +1,43 @@
+import random
+#----------------------------------------------
+name = ""
+Question = "Will my children clean their rooms?" 
+answer = ""
+#----------------------------------------------
+random_number = random.randint(1, 12)
+print(random_number)
+#----------------------------------------------
+if random_number == 1:
+  answer = "Yes - deinitely"
+elif random_number == 2:
+ answer = "Sure, why not!"
+elif random_number == 3:
+ answer ="Without a doubt...maybe"
+elif random_number == 4:
+ answer ="Mmmmm....try again"
+elif random_number == 5:
+ answer ="No chance Douche bag"
+elif random_number == 6:
+  answer ="It's best you don't know dude"
+elif random_number == 7:
+  answer ="Computer says no...eeeh"
+elif random_number == 8:
+ answer ="Not looking so good mush"
+elif random_number == 9:
+  answer ="I very much doubt it"  
+elif random_number == 10:
+  answer ="Depends...What's it worth?"
+elif random_number == 11:
+  answer ="HAHAHAHAHAHAHAHAHhahaha... good one"
+elif random_number == 12:
+  answer ="Yeah. It might just happen today!"    
+else:
+ answer = "Error"
+#----------------------------------------------- 
+if name == "":
+  print("Anonymous asks: " , Question)
+else:
+  print(name , "asks: \n" , Question) 
+
+print("Magic 8-Ball's answer: \n" , answer)
+#-----------------------------------------------
